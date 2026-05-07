@@ -1,17 +1,17 @@
 class Mediarecode < Formula
   desc "GUI video workflow tool for remuxing, encoding, Dolby Vision and HDR10+"
   homepage "https://github.com/Hydro74000/mediarecode"
-  version "2.1.0"
+  version "2.2.0"
   license "MIT"
 
   on_linux do
-    url "https://github.com/Hydro74000/mediarecode/releases/download/v2.1.0/Mediarecode-x86_64_allinc-2.1.0.AppImage"
-    sha256 "e31ba0f36809e8ee332e3f7290d9f46ded367a3ef92e0b70db5a0e3e53e25bae"
+    url "https://github.com/Hydro74000/mediarecode/releases/download/v2.2.0/Mediarecode-x86_64_allinc-2.2.0.AppImage"
+    sha256 "fda873a0725df0f976a059dd6ee4d16fdba4903ecdc5508fd95e326245fb9e87"
   end
 
   on_macos do
-    url "https://github.com/Hydro74000/mediarecode/releases/download/v2.1.0/Mediarecode-2.1.0-homebrew-macos.tar.gz"
-    sha256 "210e69b9aa372523290df8abb192ee2dd02be93fce3bbe408fa81b1766c17509"
+    url "https://github.com/Hydro74000/mediarecode/releases/download/v2.2.0/Mediarecode-2.2.0-homebrew-macos.tar.gz"
+    sha256 "5fdc9fb3113b110cc606ac9cf64c7753100519dda0fcff820ea1295e7645ba1a"
 
     depends_on "ffmpeg"
     depends_on "mediainfo"
