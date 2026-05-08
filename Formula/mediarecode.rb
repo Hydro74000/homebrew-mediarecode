@@ -6,12 +6,12 @@ class Mediarecode < Formula
 
   on_linux do
     url "https://github.com/Hydro74000/mediarecode/releases/download/v2.2.0/Mediarecode-x86_64_allinc-2.2.0.AppImage"
-    sha256 "fda873a0725df0f976a059dd6ee4d16fdba4903ecdc5508fd95e326245fb9e87"
+    sha256 "5cbf666de80bca2ca6c831e2c4425315c00ab35a55cb342545e32ad749d1ae85"
   end
 
   on_macos do
     url "https://github.com/Hydro74000/mediarecode/releases/download/v2.2.0/Mediarecode-2.2.0-homebrew-macos.tar.gz"
-    sha256 "5fdc9fb3113b110cc606ac9cf64c7753100519dda0fcff820ea1295e7645ba1a"
+    sha256 "389ed5d28b2bf97c19711ca3a5cee76d4c9e0c78098921b0666b4b22c39f1a5e"
 
     depends_on "ffmpeg"
     depends_on "mediainfo"
