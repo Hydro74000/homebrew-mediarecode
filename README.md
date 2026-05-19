@@ -1,10 +1,14 @@
-# homebrew-mediarecode
+# homebrew-mediarecode (DEPRECATED)
 
-Homebrew tap for Mediarecode.
+> **Ce tap est deprecié.** Mediarecode a été renommé en **Muxiveo** pour des raisons légales.
 
-## Usage
+## Migration
 
 ```bash
-brew tap Hydro74000/mediarecode
-brew install mediarecode
+brew uninstall mediarecode
+brew untap Hydro74000/mediarecode
+brew tap Hydro74000/muxiveo
+brew install muxiveo
 ```
+
+Le nouveau tap est disponible sur : https://github.com/Hydro74000/homebrew-muxiveo
