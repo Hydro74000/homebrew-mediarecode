@@ -1,17 +1,17 @@
 class Muxiveo < Formula
   desc "GUI video workflow tool for remuxing, encoding, Dolby Vision and HDR10+"
   homepage "https://github.com/Hydro74000/muxiveo"
-  version "3.1.0"
+  version "3.1.1"
   license "MIT"
 
   on_linux do
-    url "https://github.com/Hydro74000/muxiveo/releases/download/stable/Muxiveo-x86_64_allinc-3.1.0.AppImage"
-    sha256 "26373cac497246ff8c09dc5a12e6f16646baa0f8da06fbc4633658afef87bf61"
+    url "https://github.com/Hydro74000/muxiveo/releases/download/stable/Muxiveo-x86_64_allinc-3.1.1.AppImage"
+    sha256 "25f611f7f3e9e8ced23c3fb9bcacfa5e087e529e23e302b901cf940078293cc6"
   end
 
   on_macos do
-    url "https://github.com/Hydro74000/muxiveo/releases/download/stable/Muxiveo-3.1.0-homebrew-macos.tar.gz"
-    sha256 "e2c5344601049df1c11a450c426cf23ca7282eee3a9b59c1320ecc276bfcd5f9"
+    url "https://github.com/Hydro74000/muxiveo/releases/download/stable/Muxiveo-3.1.1-homebrew-macos.tar.gz"
+    sha256 "441b50369d808ac93a35960f20b215cb01ce14f5c881add8c7c0073d4094ee4e"
 
     depends_on "ffmpeg"
     depends_on "mediainfo"
