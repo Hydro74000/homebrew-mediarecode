@@ -1,24 +1,24 @@
 class Muxiveo < Formula
   desc "GUI video workflow tool for remuxing, encoding, Dolby Vision and HDR10+"
   homepage "https://github.com/Hydro74000/muxiveo"
-  version "3.1.2"
+  version "4.0.0"
   license "MIT"
 
   on_linux do
-    url "https://github.com/Hydro74000/muxiveo/releases/download/v3.1.2/Muxiveo-x86_64_allinc-3.1.2.AppImage"
-    sha256 "0b6a0bbfa006ccc4a404f672214757144d182fb4366cf38da770fe99e85a508d"
+    url "https://github.com/Hydro74000/muxiveo/releases/download/v4.0.0/Muxiveo-x86_64_allinc-4.0.0.AppImage"
+    sha256 "6625c06dbfc8bacc344f83d81733cd43b941644adf784d8d22879ef6ac535b20"
   end
 
   on_macos do
-    url "https://github.com/Hydro74000/muxiveo/releases/download/v3.1.2/Muxiveo-3.1.2-homebrew-macos.tar.gz"
-    sha256 "564dd5598db26b3d8048f66858822916865bde003138c91783809e39d1b18cb2"
+    url "https://github.com/Hydro74000/muxiveo/releases/download/v4.0.0/Muxiveo-4.0.0-homebrew-macos.tar.gz"
+    sha256 "18df60c0122a394e22a6e04b8bba95bda650b4a6af0464fd3298ea3fc99fc0af"
 
     depends_on "ffmpeg"
     depends_on "mediainfo"
 
     resource "dovi_tool" do
-      url "https://github.com/quietvoid/dovi_tool/releases/download/2.3.2/dovi_tool-2.3.2-universal-macOS.zip"
-      sha256 "a79653695b29fa61ce46e855baf9bcd2f56628b66ab8266cf87a587914829da7"
+      url "https://github.com/quietvoid/dovi_tool/releases/download/2.3.4/dovi_tool-2.3.4-universal-macOS.zip"
+      sha256 "30d4f512eb67b7f1632cd28be5c62989bedad23f4710578aafc20c384b48ece6"
     end
 
     resource "hdr10plus_tool" do
