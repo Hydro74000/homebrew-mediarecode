@@ -6,12 +6,12 @@ class Muxiveo < Formula
 
   on_linux do
     url "https://github.com/Hydro74000/muxiveo/releases/download/v4.0.3/Muxiveo-x86_64_allinc-4.0.3.AppImage"
-    sha256 "be088ad2e25d467d6c5a70adce1c128adfe789820a28e4269a9b8351f64113c0"
+    sha256 "8060605a90422968c63423243ba4bc256fef62a8ef3a8247f32ca04072f6aac8"
   end
 
   on_macos do
     url "https://github.com/Hydro74000/muxiveo/releases/download/v4.0.3/Muxiveo-4.0.3-homebrew-macos.tar.gz"
-    sha256 "ce1590b3639dbc9112d91339793d18839874db79ba0be7a74b76ae63578f11af"
+    sha256 "a61321a8989b0af313df911a6704d8c1aceb95e353799a57b100c3793a00b603"
 
     depends_on "ffmpeg"
     depends_on "mediainfo"
