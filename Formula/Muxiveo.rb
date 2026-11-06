@@ -11,7 +11,7 @@ class Muxiveo < Formula
 
   on_macos do
     url "https://github.com/Hydro74000/muxiveo/releases/download/v5.1.1/Muxiveo-5.1.1-homebrew-macos.tar.gz"
-    sha256 "917802e5f54ab1b48c118c72f82fc940f721c5b95bdf1efd175a73e5d682031f"
+    sha256 "22e9c57cabe89ca1bf92e7f2f20bb69685ae42bdbd9b35047b4c0ae503ce2120"
 
     depends_on "ffmpeg"
     depends_on "mediainfo"
